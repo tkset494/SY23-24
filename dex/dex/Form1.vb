@@ -20,6 +20,9 @@
         outFile.Write("|")
         outFile.Write(field5.Text)
         outFile.Write("|")
+        outFile.Write(PictureBox1.ImageLocation)
+        outFile.WriteLine()
+        outFile.Close()
     End Sub
 
     Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
