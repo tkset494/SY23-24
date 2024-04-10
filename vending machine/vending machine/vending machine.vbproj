@@ -96,6 +96,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="ProductControl1.Designer.vb">
+      <DependentUpon>ProductControl1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProductControl1.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
@@ -106,6 +112,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductControl1.resx">
+      <DependentUpon>ProductControl1.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -131,6 +140,54 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Nickel.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doritos.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lays.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bluedorit.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fritos.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cheetos.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cheetospuffs.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\takis.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\watermelon.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skittles.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nerds.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sourkids.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gummybear.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mnm.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\twix bar.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reeses penut buter cup.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kitkat.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
